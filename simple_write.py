@@ -18,3 +18,6 @@ all_queries = []
 all_queries.append(query)
 
 response, res_arr = db.query(all_queries)
+
+print(all_queries)
+print(response, res_arr)
